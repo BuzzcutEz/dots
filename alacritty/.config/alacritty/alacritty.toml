@@ -1,0 +1,24 @@
+[env]
+TERM = "xterm-256color"
+
+[window]
+decorations = "None"
+opacity = 0.8
+startup_mode = "Maximized"
+
+[window.padding]
+x = 25
+y = 25
+
+[font]
+size = 14.0
+normal = { family = "MartianMono Nerd Font", style = "Condensed Medium" }
+bold = { family = "MartianMono Nerd Font", style = "Condensed Bold" }
+
+[selection]
+save_to_clipboard = true
+semantic_escape_chars = ",│`|:\"' ()[]{}<>\t"
+
+[general]
+import = ["/home/buzzcutez/.config/alacritty/mocha.toml"]
+
